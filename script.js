@@ -53,7 +53,7 @@ let navDots = document.querySelectorAll('.slider_nav');
 let currentIndex = 0;
 
 function updateSlider() {
-    sliderImages.style.transform = `translateX(-${(101.3 / images.length) * currentIndex}%)`;
+    sliderImages.style.transform = `translateX(-${(100.9 / images.length) * currentIndex}%)`;
 
     navDots.forEach(dot => dot.classList.remove('active'));
     if (navDots[currentIndex]) {
