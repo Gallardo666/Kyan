@@ -4,6 +4,7 @@
     --secondary-color: #edb8ff;
     --background-color: #ebe4ff ;
     --text-color:#33255a;
+    --light-color:#fbfbfb;
 }
 
 /*Fuentes*/
@@ -274,6 +275,107 @@ nav img{
     color: var(--text-color);
 }
 
+/*Cosplays*/
+.cosplays{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3.6rem 5rem  ;
+    background-color: var(--light-color);
+}
+.cosplays h2{
+    font-size: 2.5rem ;
+}
+
+.cosplays p {
+    font-size: 1.2rem;
+    margin:1.5rem 0;
+    color: var(--text-color);
+}
+
+.images_cosplays{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.images_cosplays img{
+    width: 16rem;
+}
+
+
+/*Pelucas*/
+.pelucas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:1rem 5rem;
+    padding: 2rem 0;
+}
+.pelucas h2{
+    font-size: 2.5rem ;
+}
+
+.pelucas p{
+    font-size: 1.2rem;
+    margin:1.5rem 0;
+    color: var(--text-color);
+}
+
+/*Articulos*/
+.articulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3.6rem 5rem  ;
+    background-color: var(--light-color);
+}
+.articulos h2{
+    font-size: 2.5rem ;
+}
+
+.articulos p {
+    font-size: 1.2rem;
+    margin:1.5rem 0;
+    color: var(--text-color);
+}
+
+/*Talleres*/
+.talleres{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:1rem 5rem;
+    padding: 2rem 0;
+}
+.talleres h2{
+    font-size: 2.5rem ;
+}
+
+.talleres p {
+    font-size: 1.2rem;
+    margin:1.5rem 0;
+    color: var(--text-color);
+}
+
+/*Servicios Personalizados*/
+.servicios_personalizados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3.6rem 5rem  ;
+    background-color: var(--light-color);
+}
+.servicios_personalizados h2{
+    font-size: 2.5rem ;
+}
+
+.servicios_personalizados p {
+    font-size: 1.2rem;
+    margin:1.5rem 0;
+    color: var(--text-color);
+}
 
 /*Footer*/
 
